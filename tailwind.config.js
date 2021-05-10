@@ -2,6 +2,14 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
+    height: {
+      '136': '136px',
+      '160': '160px',
+    },
+    backgroundSize: {
+      '136': '100% 136px',
+      '160': '100% 160px',
+    },
     fontFamily: {
       'sans': ['"Khumb Sans"', 'Arial','sans-serif' ]
     },
