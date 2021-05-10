@@ -7,9 +7,10 @@ export type Props = {
 
 const Header : React.FunctionComponent<Props> = (props:Props) => {
     return(
-        <div className="h-160 bg-cover bg-no-repeat" style={{ backgroundImage: `url(${bg})` }}>
-            <header>{props.title}</header>
-        </div>
+        <header className="h-160 sm:h-136 relative">
+                <img className="w-full h-auto absolute inset-0 -z-1" src={bg} alt=""/>
+                <h1 className="text-white text-xxl font-sans pt-5 ml-16">{props.title}</h1>
+        </header>
     )
 }
 

@@ -5,7 +5,7 @@ import Layout from "../components/layout/Layout";
 const App: React.FunctionComponent = () => {
   return(
       <Layout>
-        <div className="App">
+        <div className="h-full">
           Github Jobs API TypeScript project
         </div>
       </Layout>
