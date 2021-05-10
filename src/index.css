@@ -1,7 +1,37 @@
-/* ./src/index.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+@font-face {
+  font-family: 'Khumb Sans';
+}
+
+:root {
+  @apply .light;
+}
+
+.dark {
+  --color-bg-primary: #121721;
+  --color-bg-secondary: #19202D;
+  --color-bg-accent: #5964E0;
+  --color-bg-accentLight: #939BF4;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #6E8098;
+  --color-text-accent: #5964E0;
+  --color-text-accentLight: #939BF4;
+  --color-text-white: #FFFFFF;
+}
+
+.light {
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F4F6F8;
+  --color-bg-accent: #5964E0;
+  --color-bg-accentLight: #939BF4;
+  --color-text-primary: #19202D;
+  --color-text-secondary: #4a5568;
+  --color-text-accent: #5964E0;
+  --color-text-accentLight: #939BF4;
+  --color-text-white: #FFFFFF;
+}
+
+
 
 body {
   margin: 0;
@@ -16,3 +46,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
