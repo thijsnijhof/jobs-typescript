@@ -2,12 +2,9 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
-    height: {
-      '136': '136px',
-      '160': '160px',
-    },
     minHeight: {
       '136': '136px',
+      '160': '160px',
     },
     backgroundSize: {
       '136': '100% 136px',

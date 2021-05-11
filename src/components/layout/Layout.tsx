@@ -7,10 +7,10 @@ export type Props = {
 
 const Layout : React.FunctionComponent<Props> = (props:Props) => {
     return(
-        <>
+        <div className="h-full bg-secondary">
             <Header title="devjobs" />
-            <main>{props.children}</main>
-        </>
+            <main className="">{props.children}</main>
+        </div>
     )
 }
 
