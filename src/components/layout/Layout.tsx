@@ -9,7 +9,7 @@ const Layout : React.FunctionComponent<Props> = (props:Props) => {
     return(
         <div className="h-full bg-secondary">
             <Header title="devjobs" />
-            <main className="">{props.children}</main>
+            <main className="h-3/4">{props.children}</main>
         </div>
     )
 }
