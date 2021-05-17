@@ -2,8 +2,16 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
+    minHeight: {
+      '136': '136px',
+      '160': '160px',
+    },
+    backgroundSize: {
+      '136': '100% 136px',
+      '160': '100% 160px',
+    },
     fontFamily: {
-      'sans': ['"Khumb Sans"', 'Arial','sans-serif' ]
+      'sans': ['"Khumbh Sans"', 'Arial','sans-serif' ]
     },
     fontSize: {
       sm: ['14px', '18px'],
@@ -26,7 +34,10 @@ module.exports = {
         secondary: "var(--color-text-secondary)",
         white: "var(--color-text-white)",
       },
-    },
+      zIndex: {
+        '-1': '-1',
+      }
+    }
   },
   variants: {
     extend: {},
